@@ -1,6 +1,8 @@
 { pkgs }: {
     deps = [
-        pkgs.python310
+        pkgs.chromium
+pkgs.chromedriver
+pkgs.python310
     ];
     env = {
         PYTHON_LD_LIBRARY_PATH = pkgs.lib.makeLibraryPath [

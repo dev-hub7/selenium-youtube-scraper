@@ -10,6 +10,9 @@ numpy = "^1.22.2"
 replit = "^3.2.4"
 python-lsp-server = "^1.5.0"
 debugpy = "^1.6.2"
+selenium = "^4.3.0"
+webdriver-manager = "^3.8.2"
+pandas = "^1.4.3"
 
 [tool.poetry.dev-dependencies]
 
